@@ -1,0 +1,18 @@
+.outline-box {
+  outline: 3px solid tomato;
+}
+
+div > a {
+  background-color: green;
+  /* padding-left: 250px;
+  padding-right: 250pxx;
+  padding-top: 150px;
+  padding-bottom: 150px; */
+  /* paddding: top right bottom left; */
+  padding: 150px;
+  display: inline-block;
+}
+
+  div > a:hover {
+    background-color: lightgreenx;
+  }

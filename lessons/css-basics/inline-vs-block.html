@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline vs Block</title>
+    <!-- you can also add styling with a style tag -->
+    <!-- 
+      this is an example of a style element
+      <style>
+    .outline-box {
+      outline: 3px solid tomato;
+    }
+  </style> 
+-->
+    <link rel="stylesheet" href="inline-vs-block.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- block elements -->
+        <h2>Block elements</h2>
+        <!-- if you find yourself repeating styling code, make it a class -->
+        <!-- 
+        example of inline styling
+        <p style="outline: 3px solid tomato;">This is a paragraph block</p> 
+      -->
+        <p class="outline-box">This is a paragraph block</p>
+        <p class="outline-box">This is a paragraph block</p>
+        <ul>
+          <li>Block level elements always start a new line</li>
+          <li>It will take up the entire width of the parent</li>
+        </ul>
+      </section>
+      <section>
+        <!-- inline elements -->
+        <hr />
+        <h2>Inline Elements</h2>
+        <!-- when you utilize an inline element it does not start a new line -->
+        <p>
+          The very first president o fthe United States was
+          <a class="outline-box" href="#">George Washington</a>.
+        </p>
+
+        <h3>Common Inline Tags</h3>
+        <ul>
+          <li>span <span>this is a span</span></li>
+          <li>strong, like <strong>this</strong></li>
+          <li>em elemnts look like <em>this</em></li>
+          <li>i tags are for <i>this</i></li>
+        </ul>
+      </section>
+      <!-- inline block -->
+      <hr>
+      <h2>Inline Block</h2>
+      <div>
+        <a class="outline-box" href="#">submit</a>
+        <a href="#">clear</a>
+      </div>
+      <a href="#">Outside of the div</a>
+      <section></section>
+    </main>
+  </body>
+</html>

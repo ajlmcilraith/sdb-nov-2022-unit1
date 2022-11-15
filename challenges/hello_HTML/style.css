@@ -1,0 +1,47 @@
+body {
+  background: url("https://loremflickr.com/2400/2000/grass") forestgreen;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main, footer, header {
+  background: forestgreen;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+ul li {
+  display: flex;
+  float: left;
+  margin-right: 1vw;
+  font-size: .91em;
+}
+
+ul li a {
+  display: flex;
+  flex-grow: 1;
+  padding: 1vw;
+  margin-right: auto;
+  color: yellow;
+  background-color: forestgreen;
+  border: 4px ridge yellow;
+}
+
+.inline {
+  display: inline;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgb(106, 207, 106);
+}
+
+a:active {
+  background: rgb(1, 63, 1)
+}

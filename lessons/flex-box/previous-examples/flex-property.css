@@ -1,0 +1,19 @@
+
+/* !flex property sets flex-grow, flex-shrink, and flex-basis */
+/* .container > div {
+  flex: 1;
+}
+
+.container > .about {
+  flex: 2;
+} */
+
+/* ! excluding one lets others grow around it */
+/* .home {
+  flex:1;
+}
+
+.logout {
+  flex: 1;
+} */
+

@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(114, 71, 114);
+  line-height: 2em;
+  font-family: cursive, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "nav nav nav"
+  "hero hero hero"
+  "middle-image1 middle-image2 middle-image3"
+  "bottom-image1 bottom-image2 bottom-image3"
+  "footer footer footer";
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  font-size: 1.5em;
+  padding: auto;
+}
+
+h1, footer {
+  border: 2px double pink;
+  color: pink;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  font-size: 1.3em;
+  padding: auto;
+}
+
+#navigation {
+  grid-area: nav;
+}
+
+.img100 {
+  width: 100%;
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.middle-image1 {
+  grid-area: middle-image1;
+}
+
+.middle-image2 {
+  grid-area: middle-image2;
+}
+
+.middle-image3 {
+  grid-area: middle-image3;
+}
+
+.bottom-image1 {
+  grid-area: bottom-image1;
+}
+
+.bottom-image2 {
+  grid-area: bottom-image2;
+}
+
+.bottom-image3 {
+  grid-area: bottom-image3;
+}
+
+ul {
+  align-items: center;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  align-items: center;
+  font-size: .91em;
+  width: 23%;
+  height: 30px;
+}
+
+ul li a {
+  display: block;
+  padding: 1% 30%;
+  margin: auto;
+  color: rgb(67, 125, 148);
+  background-color: pink;
+  border: 4px outset lightblue;
+  text-align: center;
+  height: 2em;
+  font-size: large;
+  text-decoration: none;
+}
+
+

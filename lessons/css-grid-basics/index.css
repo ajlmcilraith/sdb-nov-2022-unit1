@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  /* use numbers that toal to 100 for grid-template-columns */
+  /* grid-template-columns: 40% 30% 30%; */
+  /* or */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  /* more simply: */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-column-gap: 16px;
+  grid-row-gap: 16px; */
+  gap: 16px;
+/* grid-gap is deprecated */
+}
+
+.wrapper > div {
+  background: #eee;
+  padding: 16px;
+}
+
+.wrapper > div:nth-child(odd) {
+  background-color: #ddd;
+}

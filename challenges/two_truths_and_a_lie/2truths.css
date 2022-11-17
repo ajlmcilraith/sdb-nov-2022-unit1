@@ -1,0 +1,36 @@
+h1 {
+  color: lightgreen;
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+#bigbox {
+  background-color: grey;
+  width: 90%;
+  height: 50%;
+  border: thick solid black;
+  border-radius: 5px;
+  margin: 1vw;
+}
+
+.statement {
+  border: thick solid black;
+  border-radius: 5px;
+  background: lightgrey;
+  text-align: center;
+  padding: 2vw;
+  width: 23vw;
+  height: 150px;
+  display: inline-table;
+  vertical-align: center;
+  
+}
+
+

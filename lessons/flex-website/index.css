@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(193, 240, 240);
+}
+
+.container1 {
+  margin: 25px 50px;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  background-color: rgb(255, 221, 221);
+}
+
+  .container {
+  margin: 25px 50px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.col-4 {
+  flex: 33.3%;
+}
+
+.col-8 {
+  flex: 66.6%;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
